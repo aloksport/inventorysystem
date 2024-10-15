@@ -5,10 +5,10 @@ function RequestItem() {
               <div class="card">
                 <div class="card-body">
                   <p class="card-title mb-0">Requested Items</p>
-                  <div class="table-responsive">
-                    <table class="table table-striped table-borderless">
+                  <div class="table-responsive pt-3">
+                    <table class="table table-bordered">
                       <thead>
-                        <tr>
+                        <tr class="btn-primary">
                           <th>Product</th>
                           <th>Price</th>
                           <th>Date</th>
