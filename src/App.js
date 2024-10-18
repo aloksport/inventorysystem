@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Navbar from "./components/Navbar";
 import Leftsidebar from "./components/Leftsidebar";
@@ -10,18 +9,18 @@ import AssignedItem from "./components/AssignedItem";
 import Login from "./components/Login";
 function App() {
 	const isLogin=1;
-	if(isLogin==0){
+	if(isLogin===1){
 		return (
 			<Login/>
 		);
 	} else{
   return (
-    <div class="container-scroller">
+    <div className="container-scroller">
 		<Navbar/>
-		<div class="container-fluid page-body-wrapper">
+		<div className="container-fluid page-body-wrapper">
 			<Leftsidebar/>
-			<div class="main-panel">
-				<div class="content-wrapper" id="main-content-wrapper">
+			<div className="main-panel">
+				<div className="content-wrapper" id="main-content-wrapper">
 					<Welcome/>
 					<Widget/>
 					<RequestItem/>
